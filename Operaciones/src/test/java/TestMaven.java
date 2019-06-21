@@ -49,4 +49,12 @@ public class TestMaven {
         Assert.assertEquals(op.suma(a, b), 4);
 
     }
+    
+    @Test
+    public void pruebaResta(){
+        int a=5,b=3;
+        
+        OperacionesMatematicas op = new OperacionesMatematicas();
+        Assert.assertEquals(op.resta(a, b), 2);
+    }
 }
