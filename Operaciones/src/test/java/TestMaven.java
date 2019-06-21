@@ -57,4 +57,12 @@ public class TestMaven {
         OperacionesMatematicas op = new OperacionesMatematicas();
         Assert.assertEquals(op.resta(a, b), 2);
     }
+    
+    @Test
+    public void pruebaMultiplicacion(){
+        int a=3,b=3;
+        
+        OperacionesMatematicas op = new OperacionesMatematicas();
+         Assert.assertEquals(op.multiplicacion(a, b), 9);
+    }
 }
